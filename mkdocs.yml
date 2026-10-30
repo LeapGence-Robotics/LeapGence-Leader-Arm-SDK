@@ -1,0 +1,77 @@
+strict: true
+
+site_name: LeapGence Leader Arm
+site_description: LeapGence Leader Arm 官方 Python SDK
+repo_url: https://github.com/leapgence/leader-arm-sdk
+repo_name: leapgence/leader-arm-sdk
+copyright: Copyright &copy; 2026 LeapGence
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 跟随系统
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 浅色模式
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/leapgence/leader-arm-sdk
+      name: GitHub
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - 首页: index.md
+  - 指南:
+      - 开始使用: getting-started.md
+      - 连接设备: guide/connect.md
+      - 遥测与按键: guide/telemetry.md
+      - 力反馈: guide/force.md
+      - 回零与校准: guide/calibration.md
+      - 示例: examples.md
+      - 故障排除: troubleshooting.md
+  - API: api.md
