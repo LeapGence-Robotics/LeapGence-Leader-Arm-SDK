@@ -2,8 +2,8 @@ strict: true
 
 site_name: LeapGence Leader Arm
 site_description: LeapGence Leader Arm 官方 Python SDK
-repo_url: https://github.com/leapgence/leader-arm-sdk
-repo_name: leapgence/leader-arm-sdk
+repo_url: https://github.com/LeapGence-Robotics/LeapGence-Leader-Arm-SDK
+repo_name: LeapGence-Robotics/LeapGence-Leader-Arm-SDK
 copyright: Copyright &copy; 2026 LeapGence
 docs_dir: docs
 site_dir: site
@@ -44,7 +44,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/leapgence/leader-arm-sdk
+      link: https://github.com/LeapGence-Robotics/LeapGence-Leader-Arm-SDK
       name: GitHub
 
 markdown_extensions:
