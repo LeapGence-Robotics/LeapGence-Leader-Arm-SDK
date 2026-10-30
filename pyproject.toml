@@ -15,8 +15,8 @@ dependencies = ["pyserial>=3.5"]
 [project.urls]
 Homepage = "https://www.leapgence.com"
 Documentation = "https://www.leapgence.com/docs/leader-arm/"
-Repository = "https://github.com/leapgence/leader-arm-sdk"
-Issues = "https://github.com/leapgence/leader-arm-sdk/issues"
+Repository = "https://github.com/LeapGence-Robotics/LeapGence-Leader-Arm-SDK"
+Issues = "https://github.com/LeapGence-Robotics/LeapGence-Leader-Arm-SDK/issues"
 
 [tool.hatch.version]
 path = "src/leapgence/leader_arm/__init__.py"

@@ -2,13 +2,11 @@
 
 ## 安装 {#install}
 
-需要 Python 3.10 或更高版本：
+需要 Python 3.10 或更高版本。从 [GitHub Releases](https://github.com/LeapGence-Robotics/LeapGence-Leader-Arm-SDK/releases) 下载 wheel 后安装：
 
 ```bash
-python -m pip install leapgence-leader-arm
+python -m pip install leapgence_leader_arm-1.0.0-py3-none-any.whl
 ```
-
-也可以从 [GitHub Releases](https://github.com/leapgence/leader-arm-sdk/releases) 下载对应版本的 wheel 再安装。
 
 ## Linux 权限 {#linux}
 
